@@ -1,5 +1,19 @@
 <br/>
-<p align="center">
+  <div align="center">
+    <img src="assets/MindTraverse_logo.png" alt="MindJourney Logo" height="48" style="vertical-align:middle; margin-right: 1em;">
+    <svg height="43" viewBox="0 0 400 48" style="vertical-align:middle;">
+      <defs>
+        <linearGradient id="mj-gradient" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#0068bd"/>
+          <stop offset="50%" stop-color="#46a1f1"/>
+          <stop offset="100%" stop-color="#7fb2f3"/>
+        </linearGradient>
+      </defs>
+      <text x="0" y="38" font-size="40" font-family="Google Sans, Noto Sans, Castoro, sans-serif" font-weight="700" fill="url(#mj-gradient)">
+        MindJourney
+      </text>
+    </svg>
+  </div>
   <h1 align="center" style="font-size: 1.7rem">Test-Time Scaling with World Models for Spatial Reasoning</h1>
   <p align="center">
     <a href="https://yyuncong.github.io/">Yuncong Yang</a>,
