@@ -14,7 +14,7 @@
     <a href="https://people.csail.mit.edu/ganchuang">Chuang Gan</a>
   </p>
   <p align="center">
-    <a href="https://arxiv.org/abs/todo">
+    <a href="https://arxiv.org/abs/2507.12508">
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
     <a href='https://umass-embodied-agi.github.io/MindJourney/' style='padding-left: 0.5rem;'>
