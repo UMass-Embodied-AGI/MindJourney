@@ -67,7 +67,7 @@ def format_internvl3_content(contents, model_device=None):
 def format_spatial_vqa_prompt_answer_baseline(
     question: str,
     answer_choices: list,
-    images: list = None,
+    images: list,
 ) -> (str, list):
     """
     Format a ChatGPT prompt (with optional images) for a spatial VQA scenario.
@@ -88,7 +88,6 @@ def format_spatial_vqa_prompt_answer_baseline(
     sys_prompt = (
         "You are an AI assistant designed to help with spatial reasoning in a 3D indoor scene. "
         "You must analyze any provided images or observations and answer the question.\n\n"
-        r"1. The final answer MUST BE put in \boxed{}."
     )
     
     # 2) Build the content list: each element is text or (text, base64_image).
@@ -101,7 +100,7 @@ def format_spatial_vqa_prompt_answer_baseline(
     if images:
         for idx, img_path in enumerate(images):
             content.append((f"Image {idx + 1}:", img_path))
-        content.append(("\n",))
+        content.append((f"\nImage 1 is your current egocentric view\n",))
     else:
         content.append(("No image provided.\n\n",))
     
@@ -167,7 +166,6 @@ def format_spatial_vqa_prompt_answer_scaling(
         "1. You should output the exact answer from the choices.\n"
         "2. You will be provided with multiple imagined views if you taking corresponding actions to help you answer the questions.\n"
         "3. Your final line must only include the exact answer choice.\n"
-        r"4. The final answer MUST BE put in \boxed{}."
     )
     
     # Prepare the content list: text or (text, base64_image)

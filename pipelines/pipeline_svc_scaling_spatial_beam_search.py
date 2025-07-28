@@ -41,14 +41,6 @@ def _run_one_candidate(action_list, magnitude,
                         model_args,
                         model, # one model for each process
                         forward_size, turn_size):
-    # if action_list[0] == ActionSpace.MOVE_FORWARD:
-    #     folder_name = f"move-forward_{magnitude:.2f}"
-    # elif action_list[0] == ActionSpace.TURN_LEFT:
-    #     folder_name = f"turn-left_{magnitude:.2f}"
-    # else:
-    #     folder_name = f"turn-right_{magnitude:.2f}"
-    # action_folder = os.path.join(step_dir, folder_name)
-    # os.makedirs(action_folder, exist_ok=True)
     action_folder = os.path.join(step_dir, action_folder_name)
     os.makedirs(action_folder, exist_ok=True)
 
@@ -410,18 +402,6 @@ class SpatialVQAPipelineSVC(PipelineBase):
             # ----------------------------------------------------------
             if result in ("correct", "wrong"):
                 self.results["progress"][question["question_type"]][result].append(qid)
-            #     break
-            # elif result in ("move-forward", "turn-left", "turn-right"):
-            #     print("result not in (correct, wrong), but in (move-forward, turn-left, turn-right)")
-            #     # Change the primary_img_path to be the new action consequence image
-            #     if action_list[0] == ActionSpace.MOVE_FORWARD:
-            #         primary_img_path = os.path.join(save_dir, f"step_{step}", "move-forward_0.75", f"sample_{magnitude}.png")
-            #     elif action_list[0] == ActionSpace.TURN_LEFT:
-            #         primary_img_path = os.path.join(save_dir, f"step_{step}", "turn-left_30.0", f"sample_{magnitude}.png")
-            #     elif action_list[0] == ActionSpace.TURN_RIGHT:
-            #         primary_img_path = os.path.join(save_dir, f"step_{step}", "turn-right_30.0", f"sample_{magnitude}.png")
-            #     print("file exists?", os.path.exists(primary_img_path))
-            #     print("primary_img_path:", primary_img_path)
 
             # ------------------------------------------------------------------
             #  Persist progress after each question
@@ -447,11 +427,9 @@ class SpatialVQAPipelineSVC(PipelineBase):
     def _process_answer(self, response: str, question: dict, fwd=0.075, turn=3):
         """Parse LLM response and map to (result, actions, magnitude)."""
         response_l = response.lower()
-        from mathruler.grader import extract_boxed_content
-        answer = extract_boxed_content(response_l)
         try:
             if any(c.lower() in response_l for c in question["answer_choices"]):
-                return "correct" if question["correct_answer"].lower() in answer else "wrong"
+                return "correct" if question["correct_answer"].lower() in response_l.split("\n")[-1] else "wrong"
         except Exception:
             pass
         return "out of control"
@@ -695,28 +673,6 @@ class SpatialVQAPipelineSVC(PipelineBase):
                             print(f"[WARN] Skip invalid action '{action_str}' - moving too far.")
                             continue
 
-
-                    # # Build folder & top-level naming scaffolding
-                    # if curr_action_command == last_action_command:
-                    #     # combine the two actions
-                    #     new_magnitude = curr_action_magnitude + last_action_magnitude
-                    #     new_hist_raw = hist_raw[:-1]
-                    #     if len(new_hist_raw) > 0:
-                    #         hist_folder_prefix = "_".join(act.replace(" ", "_") for act in new_hist_raw) + "_"
-                    #         hist_key_prefix   = ", ".join(act.replace("-", " ") for act in new_hist_raw) + ", and then "
-                    #     else:
-                    #         hist_folder_prefix = ""
-                    #         hist_key_prefix   = ""
-                    #     new_action_list = hist_ids + [action_id] * (fixed_length - len(hist_ids))
-                    #     folder_name     = f"{hist_folder_prefix}{raw_action}_{new_magnitude:.2f}_meters" if curr_action_command == "move-forward" else f"{hist_folder_prefix}{raw_action}_{new_magnitude:.2f}_degrees"
-                    #     family_full_key = hist_key_prefix + family_key
-                    #     action_lists.append(new_action_list)
-                    #     magnitudes.append(new_magnitude)
-                    #     top_key_list.append(family_full_key)
-                    #     action_folder_name_list.append(folder_name)
-                    #     prev_action_len_list.append(len(hist_ids))
-                    #     action_candidates.setdefault(family_full_key, {})
-                    # else:
                     hist_folder_prefix = "_".join(act.replace(" ", "_") for act in hist_raw) + "_"
                     hist_key_prefix   = ", ".join(act.replace("-", " ") for act in hist_raw) + ", and then "
                     new_action_list = hist_ids + [action_id] * (fixed_length - len(hist_ids))

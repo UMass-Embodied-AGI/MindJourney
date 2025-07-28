@@ -20,7 +20,7 @@ cmd="python pipelines/pipeline_baseline.py \
   --question_type None \
   --max_images $max_images \
   --max_tries_gpt 5 \
-  --split val \
+  --split test \
   --num_question_chunks 1 \
   --question_chunk_idx 0 \
   \

@@ -312,8 +312,9 @@ class PipelineBase:
         """Parse LLM response and map to (result, actions, magnitude)."""
         response_l = response.lower()
         try:
+
             if any(c.lower() in response_l for c in question["answer_choices"]):
-                return "correct" if question["correct_answer"].lower() in response_l else "wrong"
+                return "correct" if question["correct_answer"].lower() in response_l.split("\n")[-1] else "wrong"
         except Exception:
             pass
         return "out of control"
