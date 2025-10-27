@@ -17,28 +17,25 @@ question_type="None"
 
 vlm_model_name="gpt-4o"
 vlm_qa_model_name="gpt-4o"
-# vlm_model_name="OpenGVLab/InternVL3-14B"
-# vlm_qa_model_name="OpenGVLab/InternVL3-14B"
 
 helpful_score_threshold=8
 exploration_score_threshold=8
 max_images=2
-max_steps=3
+max_steps=2
 num_beams=2
-inference_step=50
+inference_step=20
 
 checkpoint_step=92000
 num_top_candidates=18
 
 export WORLD_MODEL_TYPE="wan2.2"
 export QUESTION_DATASET_TYPE="SAT_test"
-# export WAN_CKPT_PATH="/proj/inf-scaling/granite_so1/controllable-wan-dev/outputs/ego-wan2.2-1-habitat-real-new-25-3e-5/checkpoint-${checkpoint_step}/step${checkpoint_step}.ckpt"
-export WAN_CKPT_PATH="/proj/inf-scaling/granite_so1/controllable-wan-dev/outputs/checkpoint-92000/step92000.ckpt"
+export WAN_CKPT_PATH="Your Checkpoint Path"
 
 dataset_type="SAT_test"
-input_dir="/proj/inf-scaling/granite_so1/MindJourney-dev-new/data"
+input_dir="Your Data Path"
 
-output_dir="results_wan2.2_multi/${checkpoint_step}/${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${num_beams}_${helpful_score_threshold}_${exploration_score_threshold}_${inference_step}_${num_top_candidates}"
+output_dir="results_wan2.2/${checkpoint_step}/${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${num_beams}_${helpful_score_threshold}_${exploration_score_threshold}_${inference_step}_${num_top_candidates}"
 
 num_question_chunks=5
 chunk_indices=($chunk_id)
