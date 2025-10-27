@@ -46,6 +46,7 @@ MindJourney is a test-time scaling framework that leverages the 3D imagination c
 - `pipelines/`
   - `pipeline_baseline.py`: baseline inference without a world model.
   - `pipeline_svc_scaling_spatial_beam_search.py`: SVC-based spatial beam search.
+  - `pipeline_wan_scaling_beam_search_double_rank.py`: SWM-based spatial beam search
 - `scripts/`
   - `pipeline_baseline.sh`: baseline example script.
   - `inference_pipeline_svc_scaling_parallel_sat_test.sh`: alternative SVC inference driver.
@@ -193,11 +194,14 @@ Outputs under `--output_dir`:
 If you find this repository helpful, please cite:
 
 ```
-@article{mindjourney2025,
-  title   = {Test-Time Scaling with World Models for Spatial Reasoning},
-  author  = {Yang, Yuncong and Liu, Jiageng and Zhang, Zheyuan and Zhou, Siyuan and Tan, Reuben and Yang, Jianwei and Du, Yilun and Gan, Chuang},
-  journal = {arXiv preprint arXiv:2507.12508},
-  year    = {2025}
+@misc{yang2025mindjourneytesttimescalingworld,
+      title={MindJourney: Test-Time Scaling with World Models for Spatial Reasoning}, 
+      author={Yuncong Yang and Jiageng Liu and Zheyuan Zhang and Siyuan Zhou and Reuben Tan and Jianwei Yang and Yilun Du and Chuang Gan},
+      year={2025},
+      eprint={2507.12508},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.12508}, 
 }
 ```
 
