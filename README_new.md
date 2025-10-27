@@ -93,7 +93,7 @@ pip install -r requirements_svc.txt
 ```
 
 Hardware suggestions:
-- NVIDIA GPU (24 GB VRAM or more recommended), CUDA 12.6 drivers
+- NVIDIA GPU (80 GB VRAM or more recommended), CUDA 12.6 drivers
 - Sufficient disk space for intermediate videos and results
 
 ---
@@ -150,7 +150,7 @@ Before running:
 - Add repo root to `PYTHONPATH`: `export PYTHONPATH=$PYTHONPATH:./`
 - Set `WORLD_MODEL_TYPE=svc` for Stable Virtual Camera
 
-### Option A: Use scripts
+### Use scripts to run
 
 - Baseline:
 
@@ -158,73 +158,16 @@ Before running:
 bash scripts/pipeline_baseline.sh
 ```
 
-- SVC spatial beam search:
+- SWM:
 
 ```bash
-bash scripts/pipeline_svc_SAT_scaling_spatial_beam_search.sh
+bash scripts/inference_pipeline_wan_scaling_parallel_sat-test.sh
 ```
 
-### Option B: Run with explicit arguments
-
-- Baseline (no world model):
+- SVC:
 
 ```bash
-export WORLD_MODEL_TYPE="svc"
-export PYTHONPATH=$PYTHONPATH:./
-
-python pipelines/pipeline_baseline.py \
-  --vlm_model_name gpt-4o \
-  --vlm_qa_model_name None \
-  --num_questions 150 \
-  --output_dir results/results_baseline_gpt4o_test_150_2 \
-  --input_dir data \
-  --question_type None \
-  --max_images 2 \
-  --max_tries_gpt 5 \
-  --split test \
-  --num_question_chunks 1 \
-  --question_chunk_idx 0
-```
-
-- Spatial beam search with SVC:
-
-```bash
-export WORLD_MODEL_TYPE="svc"
-export PYTHONPATH=$PYTHONPATH:./
-
-python pipelines/pipeline_svc_scaling_spatial_beam_search.py \
-  --vlm_model_name gpt-4o \
-  --vlm_qa_model_name None \
-  --num_questions 150 \
-  --output_dir results/svc_test_gpt4o_150_1_8_8_2 \
-  --input_dir data \
-  --scaling_strategy spatial_beam_search \
-  --question_type None \
-  --helpful_score_threshold 8 \
-  --exploration_score_threshold 8 \
-  --max_images 2 \
-  --sampling_interval_angle 9 \
-  --sampling_interval_meter 0.25 \
-  --fixed_rotation_magnitudes 27 \
-  --fixed_forward_magnitudes 0.75 \
-  --max_steps_per_question 1 \
-  --num_top_candidates 6 \
-  --num_beams 3 \
-  --max_tries_gpt 4 \
-  --num_frames 9 \
-  --frame_interval 3 \
-  --max_inference_batch_size 1 \
-  --split test \
-  --num_question_chunks 1 \
-  --question_chunk_idx 0 \
-  --task img2trajvid_s-prob \
-  --replace_or_include_input True \
-  --cfg 4.0 \
-  --guider 1 \
-  --L_short 576 \
-  --num_targets 8 \
-  --use_traj_prior True \
-  --chunk_strategy interp
+bash scripts/inference_pipeline_svc_scaling_parallel_sat-test.sh
 ```
 
 Key arguments (see `utils/args.py` for full list):
@@ -241,8 +184,7 @@ Key arguments (see `utils/args.py` for full list):
 
 Outputs under `--output_dir`:
 - `results.json`: overall accuracy, per-type accuracy, skipped indices, parsing stats
-- `/<qid>/step_0/`: starting image(s) and `gpt.json` logs per question
-- For SVC: generated videos and camera trajectories per candidate (e.g., `episode.pkl`, `episode.json`)
+- `/<qid>/`: starting image(s) and `gpt.json`, `timing.json`logs per question
 
 ---
 
