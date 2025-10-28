@@ -3,7 +3,7 @@ export PYTHONPATH=$PYTHONPATH:./
 
 chunk_id=$1
 
-num_questions=150
+num_questions=500
 scaling_strategy="beam_search_double_rank_multiframe"
 question_type="None"
 
@@ -16,11 +16,11 @@ max_images=2
 max_steps=3
 
 export WORLD_MODEL_TYPE="svc" # choose from "cogvideox" or "svc"
-export QUESTION_DATASET_TYPE="SAT_test" # choose from "SAT_val" , "SAT_test" , "3DSRBench", "spar"
-dataset_type="SAT_test"
+export QUESTION_DATASET_TYPE="SAT_val" # choose from "SAT_val" , "SAT_test" , "3DSRBench", "spar"
+dataset_type="SAT_val"
 input_dir="data"
 
-output_dir="results/results_svc_${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${exploration_score_threshold}_${helpful_score_threshold}_${max_images}"
+output_dir="results/svc_${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${exploration_score_threshold}_${helpful_score_threshold}_${max_images}"
 export NUM_OF_FRAMES=20
 
 num_question_chunks=1             # <<< split into 5 chunks
@@ -51,7 +51,7 @@ for idx in "${chunk_indices[@]}"; do
     --num_frames $((NUM_OF_FRAMES+1)) \
     --frame_interval 3 \
     --max_inference_batch_size 1 \
-    --split test \
+    --split val \
     --num_question_chunks $num_question_chunks \
     --question_chunk_idx $idx \
     \
