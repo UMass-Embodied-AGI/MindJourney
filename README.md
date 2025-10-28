@@ -183,6 +183,7 @@ Key arguments (see `utils/args.py` for full list):
 - `--num_beams`, `--num_top_candidates`: beam width and candidate count
 - `--helpful_score_threshold`, `--exploration_score_threshold`: filtering thresholds
 - `--max_images`: max images per question (typically 1–2)
+
 You may set `num_question_chunks` into $\ge 2$ to split the questions into chunks and run different question chunks in parallel.
 
 ---
