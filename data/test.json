@@ -1,0 +1,1998 @@
+[
+    {
+        "database_idx": 0,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved left and away from the camera",
+            "chair was moved right and away from the camera"
+        ],
+        "correct_answer": "chair was moved left and away from the camera",
+        "img_paths": [
+            "./data/test/image_0_0.png",
+            "./data/test/image_0_1.png"
+        ]
+    },
+    {
+        "database_idx": 1,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved left and away from the camera",
+            "chair was moved right and away from the camera"
+        ],
+        "correct_answer": "chair was moved left and away from the camera",
+        "img_paths": [
+            "./data/test/image_1_0.png",
+            "./data/test/image_1_1.png"
+        ]
+    },
+    {
+        "database_idx": 2,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_2_0.png",
+            "./data/test/image_2_1.png"
+        ]
+    },
+    {
+        "database_idx": 3,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_3_0.png",
+            "./data/test/image_3_1.png"
+        ]
+    },
+    {
+        "database_idx": 4,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_4_0.png",
+            "./data/test/image_4_1.png"
+        ]
+    },
+    {
+        "database_idx": 5,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_5_0.png",
+            "./data/test/image_5_1.png"
+        ]
+    },
+    {
+        "database_idx": 6,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_6_0.png",
+            "./data/test/image_6_1.png"
+        ]
+    },
+    {
+        "database_idx": 7,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_7_0.png",
+            "./data/test/image_7_1.png"
+        ]
+    },
+    {
+        "database_idx": 8,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "silver mug was moved left and away from the camera",
+            "silver mug was moved right and away from the camera"
+        ],
+        "correct_answer": "silver mug was moved left and away from the camera",
+        "img_paths": [
+            "./data/test/image_8_0.png",
+            "./data/test/image_8_1.png"
+        ]
+    },
+    {
+        "database_idx": 9,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_9_0.png",
+            "./data/test/image_9_1.png"
+        ]
+    },
+    {
+        "database_idx": 10,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_10_0.png",
+            "./data/test/image_10_1.png"
+        ]
+    },
+    {
+        "database_idx": 11,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved right and towards the camera",
+            "chair was moved left and away from the camera"
+        ],
+        "correct_answer": "chair was moved right and towards the camera",
+        "img_paths": [
+            "./data/test/image_11_0.png",
+            "./data/test/image_11_1.png"
+        ]
+    },
+    {
+        "database_idx": 12,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved right and away from the camera",
+            "chair was moved left and away from the camera"
+        ],
+        "correct_answer": "chair was moved right and away from the camera",
+        "img_paths": [
+            "./data/test/image_12_0.png",
+            "./data/test/image_12_1.png"
+        ]
+    },
+    {
+        "database_idx": 13,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "bottle was moved left and towards the camera",
+            "bottle was moved right and towards the camera"
+        ],
+        "correct_answer": "bottle was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_13_0.png",
+            "./data/test/image_13_1.png"
+        ]
+    },
+    {
+        "database_idx": 14,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "paper bag was moved left and towards the camera",
+            "paper bag was moved right and towards the camera"
+        ],
+        "correct_answer": "paper bag was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_14_0.png",
+            "./data/test/image_14_1.png"
+        ]
+    },
+    {
+        "database_idx": 15,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_15_0.png",
+            "./data/test/image_15_1.png"
+        ]
+    },
+    {
+        "database_idx": 16,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_16_0.png",
+            "./data/test/image_16_1.png"
+        ]
+    },
+    {
+        "database_idx": 17,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_17_0.png",
+            "./data/test/image_17_1.png"
+        ]
+    },
+    {
+        "database_idx": 18,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "coffee mug was moved right and towards the camera",
+            "coffee mug was moved left and away from the camera"
+        ],
+        "correct_answer": "coffee mug was moved right and towards the camera",
+        "img_paths": [
+            "./data/test/image_18_0.png",
+            "./data/test/image_18_1.png"
+        ]
+    },
+    {
+        "database_idx": 19,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_19_0.png",
+            "./data/test/image_19_1.png"
+        ]
+    },
+    {
+        "database_idx": 20,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_20_0.png",
+            "./data/test/image_20_1.png"
+        ]
+    },
+    {
+        "database_idx": 21,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "houseplant was moved right and towards the camera",
+            "houseplant was moved left and towards the camera"
+        ],
+        "correct_answer": "houseplant was moved right and towards the camera",
+        "img_paths": [
+            "./data/test/image_21_0.png",
+            "./data/test/image_21_1.png"
+        ]
+    },
+    {
+        "database_idx": 22,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "remote was moved left and towards the camera",
+            "remote was moved right and towards the camera"
+        ],
+        "correct_answer": "remote was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_22_0.png",
+            "./data/test/image_22_1.png"
+        ]
+    },
+    {
+        "database_idx": 23,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved right and away from the camera",
+            "chair was moved left and away from the camera"
+        ],
+        "correct_answer": "chair was moved right and away from the camera",
+        "img_paths": [
+            "./data/test/image_23_0.png",
+            "./data/test/image_23_1.png"
+        ]
+    },
+    {
+        "database_idx": 24,
+        "question_type": "action_conseq",
+        "question": "i need to go to the counter. if i turn left, will i be facing away from it?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_24_0.png"
+        ]
+    },
+    {
+        "database_idx": 25,
+        "question_type": "perspective",
+        "question": "for someone at the soft-toy facing right by 90 degrees, will the cellphone be to his left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_25_0.png"
+        ]
+    },
+    {
+        "database_idx": 26,
+        "question_type": "perspective",
+        "question": "for the person in the picture, is the baseball bat to his right or left?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_26_0.png"
+        ]
+    },
+    {
+        "database_idx": 27,
+        "question_type": "goal_aim",
+        "question": "i need to go to the houseplant. which direction should i rotate to face it?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_27_0.png"
+        ]
+    },
+    {
+        "database_idx": 28,
+        "question_type": "goal_aim",
+        "question": "i need to go to the houseplant. if i turn right by 100 degrees, will i facing away from it?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_28_0.png"
+        ]
+    },
+    {
+        "database_idx": 29,
+        "question_type": "action_conseq",
+        "question": "if i rotate right and move forward, will i get closer to the tv?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_29_0.png"
+        ]
+    },
+    {
+        "database_idx": 30,
+        "question_type": "perspective",
+        "question": "from the perspective of the person, are the kitchen mitten and the guitar on the same side?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_30_0.png"
+        ]
+    },
+    {
+        "database_idx": 31,
+        "question_type": "perspective",
+        "question": "if i stand where the woman is and face the same way as her, is the truck to her left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_31_0.png"
+        ]
+    },
+    {
+        "database_idx": 32,
+        "question_type": "perspective",
+        "question": "if i stand in the shower facing the faucet, will i be able to see the towels without the mirror?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_32_0.png"
+        ]
+    },
+    {
+        "database_idx": 33,
+        "question_type": "action_conseq",
+        "question": "if i enter the car that has \"b.l.a.s. 0305\", would i be able to see the luggage in the car next to it?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_33_0.png"
+        ]
+    },
+    {
+        "database_idx": 34,
+        "question_type": "perspective",
+        "question": "from the perspective of the person throwing the ball, which direction is the baseball bat currently located at?",
+        "answer_choices": [
+            "top left",
+            "top right"
+        ],
+        "correct_answer": "top left",
+        "img_paths": [
+            "./data/test/image_34_0.png"
+        ]
+    },
+    {
+        "database_idx": 35,
+        "question_type": "perspective",
+        "question": "from the person's perspective, are the oranges to the left of the lemons?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_35_0.png"
+        ]
+    },
+    {
+        "database_idx": 36,
+        "question_type": "perspective",
+        "question": "if i looked in the same direction as the boy in the foreground, would i be able to see the people sitting on the benches behind?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_36_0.png"
+        ]
+    },
+    {
+        "database_idx": 37,
+        "question_type": "goal_aim",
+        "question": "which direction does the elephant need to turn to face the zebra?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_37_0.png"
+        ]
+    },
+    {
+        "database_idx": 38,
+        "question_type": "action_conseq",
+        "question": "if i climbed on top of the mountain on the left, would the people in the scene appear bigger or smaller?",
+        "answer_choices": [
+            "smaller",
+            "bigger"
+        ],
+        "correct_answer": "smaller",
+        "img_paths": [
+            "./data/test/image_38_0.png"
+        ]
+    },
+    {
+        "database_idx": 39,
+        "question_type": "goal_aim",
+        "question": "how should i orient the camera to see the entire street?",
+        "answer_choices": [
+            "rotate left",
+            "rotate right"
+        ],
+        "correct_answer": "rotate left",
+        "img_paths": [
+            "./data/test/image_39_0.png"
+        ]
+    },
+    {
+        "database_idx": 40,
+        "question_type": "perspective",
+        "question": "the person sitting on the couch wants to grab a remote. is the remote to his left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_40_0.png"
+        ]
+    },
+    {
+        "database_idx": 41,
+        "question_type": "perspective",
+        "question": "if i move to the benches and face left by 90 degrees towards the trees will the tennis racket be to my left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_41_0.png"
+        ]
+    },
+    {
+        "database_idx": 42,
+        "question_type": "perspective",
+        "question": "does the man in the red shirt see the camera?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_42_0.png"
+        ]
+    },
+    {
+        "database_idx": 43,
+        "question_type": "goal_aim",
+        "question": "in which direction does the player 8 need to rotate to face the ball?",
+        "answer_choices": [
+            "rotate left",
+            "rotate right"
+        ],
+        "correct_answer": "rotate left",
+        "img_paths": [
+            "./data/test/image_43_0.png"
+        ]
+    },
+    {
+        "database_idx": 44,
+        "question_type": "goal_aim",
+        "question": "how should the bears at the back rotate to face the bear in front?",
+        "answer_choices": [
+            "rotate left by 90 degrees",
+            "rotate right by 90 degrees"
+        ],
+        "correct_answer": "rotate left by 90 degrees",
+        "img_paths": [
+            "./data/test/image_44_0.png"
+        ]
+    },
+    {
+        "database_idx": 45,
+        "question_type": "perspective",
+        "question": "for someone at the x marked point and facing 90 degrees to the right, will the green trash bin to their left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_45_0.png"
+        ]
+    },
+    {
+        "database_idx": 46,
+        "question_type": "perspective",
+        "question": "for someone at the x marked point and facing 90 degrees to the left, will the monitor be to their left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_46_0.png"
+        ]
+    },
+    {
+        "database_idx": 47,
+        "question_type": "perspective",
+        "question": "for someone at the x marked point and facing 90 degrees to the right, will the mirror be to their left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_47_0.png"
+        ]
+    },
+    {
+        "database_idx": 48,
+        "question_type": "perspective",
+        "question": "for someone at the x marked point and facing 90 degrees to the right, will the lawn mower (marked 1) be to their left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_48_0.png"
+        ]
+    },
+    {
+        "database_idx": 49,
+        "question_type": "goal_aim",
+        "question": "i need to go to the lawn mower (marked 1). if i turn left by 90 degrees, will i be facing away from the lawn mower (marked 1)?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_49_0.png"
+        ]
+    },
+    {
+        "database_idx": 50,
+        "question_type": "action_conseq",
+        "question": "i need to go to the mirror (marked 1). if i turn left by 90 degrees, will i be facing away from the mirror (marked 1)?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_50_0.png"
+        ]
+    },
+    {
+        "database_idx": 51,
+        "question_type": "action_conseq",
+        "question": "if i turn left by 90 degrees and move forward, will the mirror (marked 1) get closer to me?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_51_0.png"
+        ]
+    },
+    {
+        "database_idx": 52,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 45 degrees and move forward, will the mirror (marked 1) get closer to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_52_0.png"
+        ]
+    },
+    {
+        "database_idx": 53,
+        "question_type": "goal_aim",
+        "question": "i need to go to the toilet (marked 1). which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_53_0.png"
+        ]
+    },
+    {
+        "database_idx": 54,
+        "question_type": "perspective",
+        "question": "for someone at the x marked point and facing 90 degrees to the left, will the person surfing be to their left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_54_0.png"
+        ]
+    },
+    {
+        "database_idx": 55,
+        "question_type": "goal_aim",
+        "question": "i need to get to the door of the bus (marked 1). which direction do i need to turn to face the object?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_55_0.png"
+        ]
+    },
+    {
+        "database_idx": 56,
+        "question_type": "action_conseq",
+        "question": "if i turn left and move forward, will the bus door (marked 1) get closer to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_56_0.png"
+        ]
+    },
+    {
+        "database_idx": 57,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 100 degrees and move forward, will the bus door (marked 1) get closer to me?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_57_0.png"
+        ]
+    },
+    {
+        "database_idx": 58,
+        "question_type": "perspective",
+        "question": "if i turn right and move forward, will the flatscreen television (marked 1) move closer to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_58_0.png"
+        ]
+    },
+    {
+        "database_idx": 59,
+        "question_type": "perspective",
+        "question": "for the child in the picture, is the flatscreen television (marked 1) to his left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_59_0.png"
+        ]
+    },
+    {
+        "database_idx": 60,
+        "question_type": "action_conseq",
+        "question": "if i turn right and move forward, will the white truck (marked 1) get closer to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_60_0.png"
+        ]
+    },
+    {
+        "database_idx": 61,
+        "question_type": "goal_aim",
+        "question": "i need to go to the white truck (marked 1). if i turn left, will i be facing away from it?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_61_0.png"
+        ]
+    },
+    {
+        "database_idx": 62,
+        "question_type": "perspective",
+        "question": "for someone near the white table facing towards the left, will the windows be to their left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_62_0.png"
+        ]
+    },
+    {
+        "database_idx": 63,
+        "question_type": "perspective",
+        "question": "if facing the nearest red chair to the cameraview, and turn left by 90 degree, which side is the nearest computer? left or right",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_63_0.png"
+        ]
+    },
+    {
+        "database_idx": 64,
+        "question_type": "perspective",
+        "question": "if someone is sitting on the piano chair, is the audience sitting to his left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_64_0.png"
+        ]
+    },
+    {
+        "database_idx": 65,
+        "question_type": "goal_aim",
+        "question": "the person sitting on the chair needs to face the glass studo. which direction should the person sitting on the chair turn to face the glass studio?",
+        "answer_choices": [
+            "rotate right by 20 degrees",
+            "rotate left by 45 degrees"
+        ],
+        "correct_answer": "rotate right by 20 degrees",
+        "img_paths": [
+            "./data/test/image_65_0.png"
+        ]
+    },
+    {
+        "database_idx": 66,
+        "question_type": "perspective",
+        "question": "is the tv behind or in front of the red stool?",
+        "answer_choices": [
+            "behind",
+            "in front"
+        ],
+        "correct_answer": "behind",
+        "img_paths": [
+            "./data/test/image_66_0.png"
+        ]
+    },
+    {
+        "database_idx": 67,
+        "question_type": "perspective",
+        "question": "if i stand in front of the trash bin, is there two person to my right?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_67_0.png"
+        ]
+    },
+    {
+        "database_idx": 68,
+        "question_type": "perspective",
+        "question": "where is the studio relative to the blue chair?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_68_0.png"
+        ]
+    },
+    {
+        "database_idx": 69,
+        "question_type": "perspective",
+        "question": "if i am standing in the centre of the room, facing the camera. is the door to my left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_69_0.png"
+        ]
+    },
+    {
+        "database_idx": 70,
+        "question_type": "goal_aim",
+        "question": "i need to go to the table (marked 3). which direction should i turn to face the object?",
+        "answer_choices": [
+            "rotate right",
+            "rotate left"
+        ],
+        "correct_answer": "rotate right",
+        "img_paths": [
+            "./data/test/image_70_0.png"
+        ]
+    },
+    {
+        "database_idx": 71,
+        "question_type": "goal_aim",
+        "question": "i need to go to the table (marked 2). if i turn right by 90 degrees, will i be facing away from it?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_71_0.png"
+        ]
+    },
+    {
+        "database_idx": 72,
+        "question_type": "action_conseq",
+        "question": "if i rotate left and move forward, will i move closer to the table (marked 2)?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_72_0.png"
+        ]
+    },
+    {
+        "database_idx": 73,
+        "question_type": "goal_aim",
+        "question": "i need to go to the serving counter (marked 1). which direction should i rotate to face the object?",
+        "answer_choices": [
+            "look straight",
+            "rotate right"
+        ],
+        "correct_answer": "look straight",
+        "img_paths": [
+            "./data/test/image_73_0.png"
+        ]
+    },
+    {
+        "database_idx": 74,
+        "question_type": "goal_aim",
+        "question": "i need to go to the cash counter (marked 1). which direction should i rotate to face the object?",
+        "answer_choices": [
+            "rotate right",
+            "rotate left"
+        ],
+        "correct_answer": "rotate right",
+        "img_paths": [
+            "./data/test/image_74_0.png"
+        ]
+    },
+    {
+        "database_idx": 75,
+        "question_type": "action_conseq",
+        "question": "if i rotate left by 90 degrees and move forward, will i get closer to the item on the shelf (marked 2)?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_75_0.png"
+        ]
+    },
+    {
+        "database_idx": 76,
+        "question_type": "action_conseq",
+        "question": "if i rotate left and move forward, will i move closer to the printer (marked 1)?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_76_0.png"
+        ]
+    },
+    {
+        "database_idx": 77,
+        "question_type": "goal_aim",
+        "question": "i need to go to the printer (marked 1). which direction should i turn to face the object?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_77_0.png"
+        ]
+    },
+    {
+        "database_idx": 78,
+        "question_type": "goal_aim",
+        "question": "i need to clean the toy area (marked 2). which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_78_0.png"
+        ]
+    },
+    {
+        "database_idx": 79,
+        "question_type": "goal_aim",
+        "question": "i need to sit at the chair marked 1. which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_79_0.png"
+        ]
+    },
+    {
+        "database_idx": 80,
+        "question_type": "action_conseq",
+        "question": "if i rotate left by 100 degrees, will i be facing away from the window (marked 1)?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_80_0.png"
+        ]
+    },
+    {
+        "database_idx": 81,
+        "question_type": "action_conseq",
+        "question": "if i rotate right and move forward, will the window (marked 1) move closer to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_81_0.png"
+        ]
+    },
+    {
+        "database_idx": 82,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_82_0.png",
+            "./data/test/image_82_1.png"
+        ]
+    },
+    {
+        "database_idx": 83,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "side table was moved right and towards the camera",
+            "side table was moved left and away from the camera"
+        ],
+        "correct_answer": "side table was moved right and towards the camera",
+        "img_paths": [
+            "./data/test/image_83_0.png",
+            "./data/test/image_83_1.png"
+        ]
+    },
+    {
+        "database_idx": 84,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "cardboard box was moved left and away from the camera",
+            "no object moved"
+        ],
+        "correct_answer": "cardboard box was moved left and away from the camera",
+        "img_paths": [
+            "./data/test/image_84_0.png",
+            "./data/test/image_84_1.png"
+        ]
+    },
+    {
+        "database_idx": 85,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "bowl was moved right",
+            "bowl was moved left"
+        ],
+        "correct_answer": "bowl was moved right",
+        "img_paths": [
+            "./data/test/image_85_0.png",
+            "./data/test/image_85_1.png"
+        ]
+    },
+    {
+        "database_idx": 86,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "soap bottle was moved left and towards the camera",
+            "soap bottle was moved right and towards the camera"
+        ],
+        "correct_answer": "soap bottle was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_86_0.png",
+            "./data/test/image_86_1.png"
+        ]
+    },
+    {
+        "database_idx": 87,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "bowl was moved right and towards the camera",
+            "bowl was moved left and towards the camera"
+        ],
+        "correct_answer": "bowl was moved right and towards the camera",
+        "img_paths": [
+            "./data/test/image_87_0.png",
+            "./data/test/image_87_1.png"
+        ]
+    },
+    {
+        "database_idx": 88,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_88_0.png",
+            "./data/test/image_88_1.png"
+        ]
+    },
+    {
+        "database_idx": 89,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "kettle was moved left and towards the camera",
+            "kettle was moved right and towards the camera"
+        ],
+        "correct_answer": "kettle was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_89_0.png",
+            "./data/test/image_89_1.png"
+        ]
+    },
+    {
+        "database_idx": 90,
+        "question_type": "perspective",
+        "question": "from this perspective, are the two people walking or the parking sign closer to me?",
+        "answer_choices": [
+            "parking sign",
+            "two people walking"
+        ],
+        "correct_answer": "parking sign",
+        "img_paths": [
+            "./data/test/image_90_0.png"
+        ]
+    },
+    {
+        "database_idx": 91,
+        "question_type": "goal_aim",
+        "question": "i need to pick up a cue stick. which direction should i turn to walk straight towards it?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_91_0.png"
+        ]
+    },
+    {
+        "database_idx": 92,
+        "question_type": "perspective",
+        "question": "from the perspective of the woman facing the camera, is the horse to her left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_92_0.png"
+        ]
+    },
+    {
+        "database_idx": 93,
+        "question_type": "goal_aim",
+        "question": "the boat needs to go under the bridge, which direction should it turn?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_93_0.png"
+        ]
+    },
+    {
+        "database_idx": 94,
+        "question_type": "perspective",
+        "question": "the person needs to grab their ski poles. which way does the person need to turn to face it?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_94_0.png"
+        ]
+    },
+    {
+        "database_idx": 95,
+        "question_type": "perspective",
+        "question": "if i sit by the dog and face the same direction as the dog, will the lamp be to my left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_95_0.png"
+        ]
+    },
+    {
+        "database_idx": 96,
+        "question_type": "goal_aim",
+        "question": "you need to walk up the stairs, should you go straight or slightly right or left?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_96_0.png"
+        ]
+    },
+    {
+        "database_idx": 97,
+        "question_type": "goal_aim",
+        "question": "i need to turn the water on in the bathtub. which way should i turn to face it?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_97_0.png"
+        ]
+    },
+    {
+        "database_idx": 98,
+        "question_type": "action_conseq",
+        "question": "if the person wants to increase the tension on the rope of the kite, which direction should they run to?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_98_0.png"
+        ]
+    },
+    {
+        "database_idx": 99,
+        "question_type": "action_conseq",
+        "question": "the person in the white boat needs to go to the blue dinghy. which direction should he steer?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_99_0.png"
+        ]
+    },
+    {
+        "database_idx": 100,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved left and towards from the camera",
+            "chair was moved right and away from the camera"
+        ],
+        "correct_answer": "chair was moved left and towards from the camera",
+        "img_paths": [
+            "./data/test/image_100_0.png",
+            "./data/test/image_100_1.png"
+        ]
+    },
+    {
+        "database_idx": 101,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "bottle was moved right and away from the camera",
+            "bottle was moved right and towards the camera"
+        ],
+        "correct_answer": "bottle was moved right and away from the camera",
+        "img_paths": [
+            "./data/test/image_101_0.png",
+            "./data/test/image_101_1.png"
+        ]
+    },
+    {
+        "database_idx": 102,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "paper bag was moved right and away the camera",
+            "paper bag was moved left and away the camera"
+        ],
+        "correct_answer": "paper bag was moved right and away the camera",
+        "img_paths": [
+            "./data/test/image_102_0.png",
+            "./data/test/image_102_1.png"
+        ]
+    },
+    {
+        "database_idx": 103,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "houseplant was moved left and away from the camera",
+            "houseplant was moved right and towards the camera"
+        ],
+        "correct_answer": "houseplant was moved left and away from the camera",
+        "img_paths": [
+            "./data/test/image_103_0.png",
+            "./data/test/image_103_1.png"
+        ]
+    },
+    {
+        "database_idx": 104,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "remote was moved right and away from the camera",
+            "remote was moved left and away from the camera"
+        ],
+        "correct_answer": "remote was moved right and away from the camera",
+        "img_paths": [
+            "./data/test/image_104_0.png",
+            "./data/test/image_104_1.png"
+        ]
+    },
+    {
+        "database_idx": 105,
+        "question_type": "obj_movement",
+        "question": "were any of the objects in the initial frame that you can still see in the second frame moved from their original positions?",
+        "answer_choices": [
+            "chair was moved left and towards the camera",
+            "chair was moved right and towards from the camera"
+        ],
+        "correct_answer": "chair was moved left and towards the camera",
+        "img_paths": [
+            "./data/test/image_105_0.png",
+            "./data/test/image_105_1.png"
+        ]
+    },
+    {
+        "database_idx": 106,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 90 degrees and move forward, will i get closer to the football?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_106_0.png"
+        ]
+    },
+    {
+        "database_idx": 107,
+        "question_type": "action_conseq",
+        "question": "if i turn left by 10 degrees and move forward, will i get closer to the football?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_107_0.png"
+        ]
+    },
+    {
+        "database_idx": 108,
+        "question_type": "perspective",
+        "question": "which way is the person turning from his perspective?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_108_0.png"
+        ]
+    },
+    {
+        "database_idx": 109,
+        "question_type": "goal_aim",
+        "question": "i need to get to the door of the train, which direction should i rotate to face the door?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_109_0.png"
+        ]
+    },
+    {
+        "database_idx": 110,
+        "question_type": "action_conseq",
+        "question": "if i need to get to the back of the train, should i turn left or right?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_110_0.png"
+        ]
+    },
+    {
+        "database_idx": 111,
+        "question_type": "action_conseq",
+        "question": "if i turn left by 10 degrees and move forward, will i get closer to the tv?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_111_0.png"
+        ]
+    },
+    {
+        "database_idx": 112,
+        "question_type": "goal_aim",
+        "question": "i need to get to the tv, which direction should i turn to face the object?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_112_0.png"
+        ]
+    },
+    {
+        "database_idx": 113,
+        "question_type": "action_conseq",
+        "question": "if i rotate right and move forward, will i get closer to the white truck?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_113_0.png"
+        ]
+    },
+    {
+        "database_idx": 114,
+        "question_type": "goal_aim",
+        "question": "i need to go to the white truck, which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_114_0.png"
+        ]
+    },
+    {
+        "database_idx": 115,
+        "question_type": "goal_aim",
+        "question": "i need to go to the wall painting, which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_115_0.png"
+        ]
+    },
+    {
+        "database_idx": 116,
+        "question_type": "perspective",
+        "question": "which direction would the person need to turn to play the synthetsizer keyboard?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_116_0.png"
+        ]
+    },
+    {
+        "database_idx": 117,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 40 degrees and move forward, will i get closer to the coca-cola dispenser?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_117_0.png"
+        ]
+    },
+    {
+        "database_idx": 118,
+        "question_type": "action_conseq",
+        "question": "i need to go to the cashier. if i rotate left by 90 degrees, will i be facing away from the object?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_118_0.png"
+        ]
+    },
+    {
+        "database_idx": 119,
+        "question_type": "goal_aim",
+        "question": "i need to stand in queue for the cashier line. which direction should i rotate to go to the end of the queue?",
+        "answer_choices": [
+            "left",
+            "right"
+        ],
+        "correct_answer": "left",
+        "img_paths": [
+            "./data/test/image_119_0.png"
+        ]
+    },
+    {
+        "database_idx": 120,
+        "question_type": "action_conseq",
+        "question": "if i turn left by 90 degrees and move forward, will i move away from the water?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_120_0.png"
+        ]
+    },
+    {
+        "database_idx": 121,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 90 degrees, will i be facing the sink?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_121_0.png"
+        ]
+    },
+    {
+        "database_idx": 122,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 45 degrees, will i be facing the red parked car?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_122_0.png"
+        ]
+    },
+    {
+        "database_idx": 123,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 90 degrees, will i be facing the store entrance?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_123_0.png"
+        ]
+    },
+    {
+        "database_idx": 124,
+        "question_type": "perspective",
+        "question": "if i stand where the dog is and face the same way, will the cup be to my right or left?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_124_0.png"
+        ]
+    },
+    {
+        "database_idx": 125,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 20 degrees, will be facing the closest table to me?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_125_0.png"
+        ]
+    },
+    {
+        "database_idx": 126,
+        "question_type": "action_conseq",
+        "question": "if the person keeps tilting towards the people in the background, which direction will he turn?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_126_0.png"
+        ]
+    },
+    {
+        "database_idx": 127,
+        "question_type": "goal_aim",
+        "question": "i need to go to the flatscreen tv. which direction should i rotate to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_127_0.png"
+        ]
+    },
+    {
+        "database_idx": 128,
+        "question_type": "action_conseq",
+        "question": "if i turn left by 90 degrees, will i be facing away from the flatscreen tv?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_128_0.png"
+        ]
+    },
+    {
+        "database_idx": 129,
+        "question_type": "goal_aim",
+        "question": "i need to go to tallahassee, which direction should i turn?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_129_0.png"
+        ]
+    },
+    {
+        "database_idx": 130,
+        "question_type": "goal_aim",
+        "question": "i need to go to the yellow parked car. which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_130_0.png"
+        ]
+    },
+    {
+        "database_idx": 131,
+        "question_type": "action_conseq",
+        "question": "if i rotate left by 90 degrees, will i be facing the yellow parked car?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_131_0.png"
+        ]
+    },
+    {
+        "database_idx": 132,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 60 degrees, will i be facing the road?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_132_0.png"
+        ]
+    },
+    {
+        "database_idx": 133,
+        "question_type": "perspective",
+        "question": "is she about to swing the racket towards her left or right?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_133_0.png"
+        ]
+    },
+    {
+        "database_idx": 134,
+        "question_type": "action_conseq",
+        "question": "is it safe to turn left and move forward in this picture?",
+        "answer_choices": [
+            "no",
+            "yes"
+        ],
+        "correct_answer": "no",
+        "img_paths": [
+            "./data/test/image_134_0.png"
+        ]
+    },
+    {
+        "database_idx": 135,
+        "question_type": "goal_aim",
+        "question": "i need to move away from the train. which direction should i turn?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_135_0.png"
+        ]
+    },
+    {
+        "database_idx": 136,
+        "question_type": "goal_aim",
+        "question": "i need to go to the couch. which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_136_0.png"
+        ]
+    },
+    {
+        "database_idx": 137,
+        "question_type": "action_conseq",
+        "question": "if i rotate right and move forward, will move closer to the couch?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_137_0.png"
+        ]
+    },
+    {
+        "database_idx": 138,
+        "question_type": "goal_aim",
+        "question": "i need to open the window near the couch, which direction should i turn?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_138_0.png"
+        ]
+    },
+    {
+        "database_idx": 139,
+        "question_type": "action_conseq",
+        "question": "if i turn right by 30 degrees and move forward, will i get closer to the bus door?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_139_0.png"
+        ]
+    },
+    {
+        "database_idx": 140,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_140_0.png",
+            "./data/test/image_140_1.png"
+        ]
+    },
+    {
+        "database_idx": 141,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_141_0.png",
+            "./data/test/image_141_1.png"
+        ]
+    },
+    {
+        "database_idx": 142,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_142_0.png",
+            "./data/test/image_142_1.png"
+        ]
+    },
+    {
+        "database_idx": 143,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_143_0.png",
+            "./data/test/image_143_1.png"
+        ]
+    },
+    {
+        "database_idx": 144,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_144_0.png",
+            "./data/test/image_144_1.png"
+        ]
+    },
+    {
+        "database_idx": 145,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_145_0.png",
+            "./data/test/image_145_1.png"
+        ]
+    },
+    {
+        "database_idx": 146,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated right",
+            "rotated left"
+        ],
+        "correct_answer": "rotated right",
+        "img_paths": [
+            "./data/test/image_146_0.png",
+            "./data/test/image_146_1.png"
+        ]
+    },
+    {
+        "database_idx": 147,
+        "question_type": "ego_movement",
+        "question": "how did the camera likely rotate when shooting the video?",
+        "answer_choices": [
+            "rotated left",
+            "rotated right"
+        ],
+        "correct_answer": "rotated left",
+        "img_paths": [
+            "./data/test/image_147_0.png",
+            "./data/test/image_147_1.png"
+        ]
+    },
+    {
+        "database_idx": 148,
+        "question_type": "goal_aim",
+        "question": "i need to face the shelf of books closest to me, which direction should i turn to face the object?",
+        "answer_choices": [
+            "right",
+            "left"
+        ],
+        "correct_answer": "right",
+        "img_paths": [
+            "./data/test/image_148_0.png"
+        ]
+    },
+    {
+        "database_idx": 149,
+        "question_type": "action_conseq",
+        "question": "i need to grab some poles. if i turn right, will i be facing away from the poles?",
+        "answer_choices": [
+            "yes",
+            "no"
+        ],
+        "correct_answer": "yes",
+        "img_paths": [
+            "./data/test/image_149_0.png"
+        ]
+    }
+]
