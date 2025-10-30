@@ -2,7 +2,10 @@
   <div align="center">
     <img src="assets/MindJourney_logo_transparent.png" alt="MindJourney Logo" height="48" style="vertical-align:middle">
   </div>
-  <h1 align="center" style="font-size: 1.7rem">Test-Time Scaling with World Models for Spatial Reasoning</h1>
+  <h1 align="center" style="font-size: 1.7rem">MindJourney: Test-Time Scaling with World Models for Spatial Reasoning</h1>
+  <p align="center">
+  NeurIPS 2025
+  </p>
   <p align="center">
     <a href="https://yyuncong.github.io/">Yuncong Yang</a>,
     <a href="https://jiagengliu02.github.io/">Jiageng Liu</a>,
@@ -35,7 +38,8 @@ MindJourney is a test-time scaling framework that leverages the 3D imagination c
 
 ## News
 
-- Actively maintained: baseline and SVC spatial beam-search pipelines are available with unified arguments and result logging.
+- 2025/10: Updated codebase with new Search World Model opensourced.
+- 2025/09: MindJourney is accepted to NeurIPS 2025!
 - 2025/07: Inference code for SAT with Stable Virtual Camera released.
 - 2025/07: Paper is on arXiv: https://arxiv.org/abs/2507.12508
 
