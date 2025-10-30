@@ -4,7 +4,7 @@ export PYTHONPATH=$PYTHONPATH:./
 chunk_id=$1
 
 num_questions=500
-scaling_strategy="beam_search_double_rank_multiframe"
+scaling_strategy="beam_search_double_rank"
 question_type="None"
 
 vlm_model_name="gpt-4o"
@@ -15,7 +15,7 @@ exploration_score_threshold=8
 max_images=2
 max_steps=3
 
-export WORLD_MODEL_TYPE="svc" # choose from "cogvideox" or "svc"
+export WORLD_MODEL_TYPE="svc"
 export QUESTION_DATASET_TYPE="SAT_val" # choose from "SAT_val" , "SAT_test" , "3DSRBench", "spar"
 dataset_type="SAT_val"
 input_dir="data"
@@ -23,7 +23,7 @@ input_dir="data"
 output_dir="results/svc_${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${exploration_score_threshold}_${helpful_score_threshold}_${max_images}"
 export NUM_OF_FRAMES=20
 
-num_question_chunks=1             # <<< split into 5 chunks
+num_question_chunks=5             # <<< split into 5 chunks
 chunk_indices=($chunk_id)             # list of indices
 
 for idx in "${chunk_indices[@]}"; do
@@ -45,9 +45,9 @@ for idx in "${chunk_indices[@]}"; do
     --fixed_rotation_magnitudes 27 \
     --fixed_forward_magnitudes 0.75 \
     --max_steps_per_question $max_steps \
-    --num_top_candidates 6 \
+    --num_top_candidates 18 \
     --num_beams 2 \
-    --max_tries_gpt 2 \
+    --max_tries_gpt 5 \
     --num_frames $((NUM_OF_FRAMES+1)) \
     --frame_interval 3 \
     --max_inference_batch_size 1 \
@@ -70,7 +70,3 @@ for idx in "${chunk_indices[@]}"; do
   # eval "$cmd"                  # run in the front
 done
 wait
-
-#--enable_slicing \
-#--enable_tiling \
-# --resume_from_checkpoint latest
