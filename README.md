@@ -30,7 +30,7 @@
 
 ## Introduction
 
-MindJourney is a test-time scaling framework that leverages the 3D imagination capability of World Models to strengthen spatial reasoning in Vision-Language Models (VLMs). We evaluate on the SAT dataset and provide both a baseline pipeline and a Stable Virtual Camera (SVC) based spatial beam search pipeline.
+MindJourney is a test-time scaling framework that leverages the 3D imagination capability of World Models to strengthen spatial reasoning in Vision-Language Models (VLMs). We evaluate on the SAT dataset and provide a baseline pipeline, a Stable Virtual Camera (SVC) based spatial beam search pipeline, and a Search World Model (SWM) based spatial beam search pipeline.
 
 ![](assets/teaser.png)
 
@@ -38,7 +38,7 @@ MindJourney is a test-time scaling framework that leverages the 3D imagination c
 
 ## News
 
-- 2025/10: Updated codebase with new Search World Model opensourced.
+- 2025/10: Updated codebase and released Search World Model.
 - 2025/09: MindJourney is accepted to NeurIPS 2025!
 - 2025/07: Inference code for SAT with Stable Virtual Camera released.
 - 2025/07: Paper is on arXiv: https://arxiv.org/abs/2507.12508
@@ -119,7 +119,14 @@ Supported models: `gpt-4o`, `gpt-4.1`, `o4-mini`, `o1`. You can also choose `Ope
 
 ---
 
-## Stable Virtual Camera Access (Hugging Face)
+## Checkpoints Preparation
+
+### Search World Model (SWM)
+Download Search World Model (SWM) from [checkpoint](https://huggingface.co/yyuncong/MindJourney-World-Model)
+
+Update checkpoint path in the bash scripts in the `.scripts/` folder.
+
+### Search World Model (SVC)
 
 Request access to SVC weights and login:
 
