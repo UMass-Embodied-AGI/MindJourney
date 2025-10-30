@@ -21,11 +21,10 @@ vlm_qa_model_name="gpt-4o"
 helpful_score_threshold=8
 exploration_score_threshold=8
 max_images=2
-max_steps=3
+max_steps=2
 num_beams=2
-inference_step=50
+inference_step=20
 
-checkpoint_step=92000
 num_top_candidates=18
 
 export WORLD_MODEL_TYPE="wan2.2"
@@ -35,9 +34,9 @@ export WAN_CKPT_PATH="YOUR CHECKPOINT PATH"
 dataset_type="SAT_val"
 input_dir="data"
 
-output_dir="results/wan2.2_${checkpoint_step}/${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${num_beams}_${helpful_score_threshold}_${exploration_score_threshold}_${inference_step}_${num_top_candidates}"
+output_dir="results/wan2.2/${vlm_model_name}_${dataset_type}_${num_questions}_${max_steps}_${num_beams}_${helpful_score_threshold}_${exploration_score_threshold}_${inference_step}_${num_top_candidates}"
 
-num_question_chunks=5
+num_question_chunks=1
 chunk_indices=($chunk_id)
 echo "chunks_indices"
 
@@ -74,5 +73,3 @@ for idx in "${chunk_indices[@]}"; do
   # eval "$cmd"
 done
 wait
-
-
