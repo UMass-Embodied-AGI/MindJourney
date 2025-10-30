@@ -68,14 +68,14 @@ def process(output_dir, max_per_type = None, split = 'val'):
         selected_examples.append(question_data)
         selected_examples_separate[question_type].append(question_data)
 
-    with open(os.path.join(output_dir, f"{split}.json"), "w") as json_file:
-        json.dump(selected_examples, json_file, indent=4)
+    # with open(os.path.join(output_dir, f"{split}.json"), "w") as json_file:
+    #     json.dump(selected_examples, json_file, indent=4)
     
-    for q_type, examples in selected_examples_separate.items():
-        json_file_path = os.path.join(output_dir, f"{split}_{q_type}.json")
-        with open(json_file_path, "w") as json_file:
-            json.dump(examples, json_file, indent=4)
-        print(f"Saved {len(examples)} examples to {json_file_path}")
+    # for q_type, examples in selected_examples_separate.items():
+    #     json_file_path = os.path.join(output_dir, f"{split}_{q_type}.json")
+    #     with open(json_file_path, "w") as json_file:
+    #         json.dump(examples, json_file, indent=4)
+    #     print(f"Saved {len(examples)} examples to {json_file_path}")
         
 
 if __name__ == "__main__":
