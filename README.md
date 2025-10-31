@@ -155,11 +155,6 @@ Per-question JSON fields: `database_idx`, `question_type`, `question`, `answer_c
 
 ---
 
-## Checkpoint Preparation (WAN)
-
-Download WAN2.2 Checkpoint and modify the `WAN_CKPT_PATH` in `scripts/inference_pipeline_wan_scaling_parallel_sat_test.sh` and `scripts/inference_pipeline_wan_scaling_parallel_sat_val.sh`
-
-
 ## Quickstart
 
 Before running:
